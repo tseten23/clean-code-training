@@ -1,0 +1,31 @@
+review1.cs
+The variable name 'd' is not descriptive. Use a meaningful name instead.
+ 
+review2.cs
+Consider renaming 'dataFromDb' to a more meaningful name like 'employees' to clearly indicate what the data represents.
+ 
+review3.cs
+The variable names should be more descriptive and follow consistent naming conventions. Consider removing unnecessary prefixes and using camelCase for local variables.
+ 
+review4.cs
+The parameter names pDay and pAmount are not very descriptive. Consider renaming pDay to dayOfWeek or day and pAmount to amount or numberOfItems for better clarity.
+ 
+review5.cs
+Use consistent naming conventions for constants. For example, daysInMonth should be DaysInMonth.
+Use camelCase for variable names. For example, Artists should be artists.
+Instead of using var, use explicit types for better readability and maintainability. For example, List<string> songs.
+Use consistent naming conventions for methods. For example, Restore_database should be RestoreDatabase.
+Class names should be in PascalCase. For example, animal should be Animal.
+Provide method bodies for EraseDatabase and RestoreDatabase, or remove them if they are not used.
+ 
+review6.cs
+The property sWorkDate should have a meaningful name that clearly indicates its purpose. For example, StartWorkingDate.
+The property modTime should also have a more descriptive name. For example, ModificationTime.
+The type Datetime should be corrected to DateTime.
+Add XML documentation comments to the properties to explain their purpose.
+ 
+review7.cs
+The variable employeephone should have a meaningful name that clearly indicates its purpose. For example, employeePhoneNumber
+Instead of using var, use explicit types for better readability and maintainability. For example, string employeePhoneNumber
+The parameters workingdays and workinghours should follow camelCase convention. For example, workingDays and workingHours
+Add XML documentation comments to the method and parameters to explain their purpose.
